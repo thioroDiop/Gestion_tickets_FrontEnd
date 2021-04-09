@@ -1,0 +1,79 @@
+:root {
+    --light-cornflower-blue: #8ecae6ff;
+    --blue-green: #219ebcff;
+    --prussian-blue: #023047ff;
+    --honey-yellow: #ffb703ff;
+    --orange: #fb8500ff;
+}
+
+body {
+    text-align: center;
+    font-family: monospace;
+    width: 50%;
+    margin: auto;
+    background-color: whitesmoke;
+    padding: 1rem;
+    border-right: var(--prussian-blue) dashed 3px;
+    border-left: var(--prussian-blue) dashed 3px;
+    border-bottom: var(--prussian-blue) dashed 3px
+}
+
+h1 {
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 2rem;
+    background-color: var(--honey-yellow);
+}
+
+h2 {
+    padding: 0.5rem;
+    margin: 1rem;
+    background-color: var(--light-cornflower-blue);
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 0.3rem;
+    background-color: var(--prussian-blue);
+    border: none;
+    border-radius: 0.2rem;
+    transition: all 0.5s ease-out;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: var(--light-cornflower-blue);
+    color: black;
+}
+
+table button {
+    background-color: var(--orange);
+}
+
+table button:hover {
+    background-color: red;
+    color: white;
+}
+
+form>* {
+    margin: 1rem;
+}
+
+table {
+    margin: 1rem auto;
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px black solid;
+}
+
+td, th {
+    padding: 0.3rem;
+}
