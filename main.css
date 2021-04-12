@@ -77,3 +77,8 @@ table, td, th {
 td, th {
     padding: 0.3rem;
 }
+
+.line-through {
+    text-decoration: line-through;
+    color: grey;
+}
